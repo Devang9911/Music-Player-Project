@@ -1,0 +1,61 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-grey{
+    background-color: rgb(39, 36, 36);
+}
+
+.rounded{
+    border-radius: 5px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 20px;
+}
+
+
+
+/* Custom Dark Vertical Scrollbar for the container */
+.cardContainer::-webkit-scrollbar {
+    width: 10px; /* Vertical scrollbar width */
+}
+
+.cardContainer::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Dark background */
+    border-radius: 5px;
+}
+
+.cardContainer::-webkit-scrollbar-thumb {
+    background: #555; /* Dark gray thumb */
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cardContainer::-webkit-scrollbar-thumb:hover {
+    background: #464545; /* Lighter on hover */
+}
+
+

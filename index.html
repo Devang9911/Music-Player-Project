@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="home bg-grey p-1">
+                <div class="logo"><img src="svg/logo.svg" alt="logo"></div>
+                <ul>
+                    <li><img class="invert" src="svg/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="svg/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey m-1 p-1">
+                <div class="heading flex">
+                    <img class="invert" src="svg/playlist.svg" alt="">
+                    <h4>
+                        Your library
+                    </h4>
+                </div>
+                <div class="songList">
+                    <ul>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="#legal"><span>Legal</span></a></div>
+                    <div><a href="#saftey"><span>Saftey and Privacy Center</span></a></div>
+                    <div><a href="#privacy"><span>Privacy Policy</span></a></div>
+                    <div><a href="#cookies"><span>Cookies</span></a></div>
+                    <div><a href="#ads"><span>About Ads</span></a></div>
+                    <div><a href="#access"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right ">
+            <div class="header p-1">
+                <div class="nav">
+                    <img src="svg/left.svg" alt="left">
+                    <img src="svg/right.svg" alt="right">
+                </div>
+                <div class="buttons">
+                    <button class="signup">Sign up</button>
+                    <button class="login">Login</button>
+                </div>
+            </div>
+
+            <div class="spotifyPlaylist bg-grey p-1">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div class="card">
+                        <div class="play">
+                            <img src="svg/play.svg" alt="play">
+                        </div>
+                        <img src="img/jhol.jpg" alt="">
+                        <h2>Jhol | Coke Studio Pakistan |</h2>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <img src="svg/play.svg" alt="play">
+                        </div>
+                        <img src="img/jhol.jpg" alt="">
+                        <h2>Jhol | Coke Studio Pakistan |</h2>
+                    </div>
+                </div>
+                <div class="playbar">
+                    <div class="songinfo"></div>
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="songtime">
+                        <div class="songstart">00:00</div>
+                        <div class="songend">00:00</div>
+                    </div>
+                    <div class="songbuttons">
+                        <img id="previous" src="svg/previous.svg" alt="PrevSong">
+                        <img id="plays" src="svg/playsong.svg" alt="PlaySong">
+                        <img id="next" src="svg/next.svg" alt="NextSong">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
